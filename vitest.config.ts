@@ -10,5 +10,6 @@ export default defineConfig({
       r2Buckets: ["REGISTRY"],
       kvNamespaces: ["UPLOADS"],
     },
+    reporters: ["verbose", "hanging-process"],
   },
 });
