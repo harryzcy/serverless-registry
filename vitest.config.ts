@@ -10,6 +10,6 @@ export default defineConfig({
       r2Buckets: ["REGISTRY"],
       kvNamespaces: ["UPLOADS"],
     },
-    reporters: process.env.GITHUB_ACTIONS ? ["dot", "github-actions", "hanging-process"] : ["dot", "hanging-process"],
+    reporters: ["dot", "hanging-process"],
   },
 });
